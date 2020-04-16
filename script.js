@@ -11,24 +11,24 @@ nav.addEventListener("click", (event) => {
 
 // flags scroll
 
-document.addEventListener("scroll", (event) => {
-  const scroll = window.scrollY;
-  const divCollection = document.querySelectorAll("main>section>.flag_margin");
-  const navCollection = document.querySelectorAll("#nav a");
+// document.addEventListener("scroll", (event) => {
+//   const scroll = window.scrollY;
+//   const divCollection = document.querySelectorAll("main>section>.flag_margin");
+//   const navCollection = document.querySelectorAll("#nav a");
 
-  divCollection.forEach((element) => {
-    if (element.offsetTop <= scroll) {
-      navCollection.forEach((a) => {
-        a.classList.remove("active");
-        if (
-          element.getAttribute("id") === a.getAttribute("href").substring(1)
-        ) {
-          a.classList.add("active");
-        }
-      });
-    }
-  });
-});
+//   divCollection.forEach((element) => {
+//     if (element.offsetTop <= scroll) {
+//       navCollection.forEach((a) => {
+//         a.classList.remove("active");
+//         if (
+//           element.getAttribute("id") === a.getAttribute("href").substring(1)
+//         ) {
+//           a.classList.add("active");
+//         }
+//       });
+//     }
+//   });
+// });
 
 // screen lock
 

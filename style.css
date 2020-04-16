@@ -28,7 +28,11 @@ body {
 }
 .flag_margin {
   position: absolute;
-  margin-top: -89px;
+  margin-top: -88px;
+}
+.flag_margin_portfolio {
+  position: absolute;
+  margin-top: -87px;
 }
 .flag_margin_services {
   position: absolute;
